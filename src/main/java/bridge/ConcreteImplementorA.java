@@ -1,6 +1,6 @@
 package bridge;
 
-public class ConcreteImplementorA implements bridge.basic.Implementor {
+public class ConcreteImplementorA implements Implementor {
     @Override
     public void operation1() {
         System.out.println("ConcreteImplementorA > operation1 ");

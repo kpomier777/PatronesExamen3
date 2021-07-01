@@ -2,10 +2,10 @@ package adapter;
 
 public class Client {
     public static void main (String [] arggggg){
-        adapter.basic.ConcreteObject adaptee = new adapter.basic.ConcreteObject();
+        ConcreteObject adaptee = new ConcreteObject();
 
-        adapter.basic.ConcreteAdapter1 concreteAdapter1 = new adapter.basic.ConcreteAdapter1();
-        adapter.basic.ConcreteAdapter2 concreteAdapter2 = new adapter.basic.ConcreteAdapter2();
+        ConcreteAdapter1 concreteAdapter1 = new ConcreteAdapter1();
+        ConcreteAdapter2 concreteAdapter2 = new ConcreteAdapter2();
         ConcreteAdapter3 concreteAdapter3 = new ConcreteAdapter3();
         ConcreteAdapterObject concreteAdapterObject = new ConcreteAdapterObject(adaptee);
 

@@ -1,11 +1,11 @@
 package decorator;
 
-public class DecoratorConcrete1 extends decorator.basic.Decorator {
+public class DecoratorConcrete1 extends Decorator {
     private String attribute1;
     private int attribute2;
     private int attribute3;
 
-    public DecoratorConcrete1(decorator.basic.Component component) {
+    public DecoratorConcrete1(Component component) {
         super(component);
     }
 

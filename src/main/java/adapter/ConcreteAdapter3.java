@@ -1,6 +1,6 @@
 package adapter;
 
-public class ConcreteAdapter3 implements adapter.basic.IAdapter {
+public class ConcreteAdapter3 implements IAdapter {
     @Override
     public void metodo1() {
         System.out.println("INFO ConcreteAdapter3 > metodo1");

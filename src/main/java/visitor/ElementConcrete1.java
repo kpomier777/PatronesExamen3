@@ -1,6 +1,6 @@
 package visitor;
 
-public class ElementConcrete1 implements visitor.basic.IElement {
+public class ElementConcrete1 implements IDepartamento {
 
     private String attribute1;
     private int attribute2;
@@ -37,7 +37,7 @@ public class ElementConcrete1 implements visitor.basic.IElement {
     }
 
     @Override
-    public void accept(IVisit visitante) {
+    public void accept(ITurista visitante) {
         // invocar al metodo comun del visitante
         visitante.visit(this);
     }

@@ -1,10 +1,10 @@
 package bridge;
 
-public class ConcreteAbstraction implements bridge.basic.IAbstraction {
+public class ConcreteAbstraction implements IAbstraction {
 
-    private bridge.basic.Implementor implemento= new ConcreteImplementorA();
+    private Implementor implemento= new ConcreteImplementorA();
 
-    public ConcreteAbstraction(bridge.basic.Implementor implemento){
+    public ConcreteAbstraction(Implementor implemento){
         this.implemento=implemento;
     }
 

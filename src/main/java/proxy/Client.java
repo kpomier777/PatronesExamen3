@@ -2,7 +2,7 @@ package proxy;
 
 public class Client {
     public static void main (String[] args){
-        proxy.basic.Proxy proxy= new proxy.basic.Proxy();
+        Proxy proxy= new Proxy();
         proxy.setAttribute1(60);
         proxy.request();
 

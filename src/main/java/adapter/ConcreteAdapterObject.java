@@ -1,18 +1,18 @@
 package adapter;
 
-public class ConcreteAdapterObject implements adapter.basic.IAdapter {
+public class ConcreteAdapterObject implements IAdapter {
 
-    private adapter.basic.ConcreteObject adaptee = new adapter.basic.ConcreteObject();
+    private ConcreteObject adaptee = new ConcreteObject();
 
-    public ConcreteAdapterObject(adapter.basic.ConcreteObject adaptee){
+    public ConcreteAdapterObject(ConcreteObject adaptee){
           this.adaptee=adaptee;
     }
 
-    public adapter.basic.ConcreteObject getAdaptee() {
+    public ConcreteObject getAdaptee() {
         return adaptee;
     }
 
-    public void setAdaptee(adapter.basic.ConcreteObject adaptee) {
+    public void setAdaptee(ConcreteObject adaptee) {
         this.adaptee = adaptee;
     }
 
