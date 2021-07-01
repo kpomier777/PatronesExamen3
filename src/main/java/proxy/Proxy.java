@@ -1,31 +1,38 @@
 package proxy;
 
-public class Proxy implements  ISubject{
+public class Proxy implements ICluster {
+    private AppWeb web;
+    private Cluster cluster;
 
-    private int attribute1;
-    // dato importante // no debe tener su metodo set/get del objeto realSubject
-    private RealSubject realSubject;
-
-    public Proxy(){
-        realSubject= new RealSubject();
+    public Proxy(AppWeb web, Cluster cluster) {
+        this.web = web;
+        this.cluster = cluster;
     }
 
-    public int getAttribute1() {
-        return attribute1;
-    }
-
-    public void setAttribute1(int attribute1) {
-        this.attribute1 = attribute1;
+    public static boolean esPrimo(int numero) {
+        if (numero <= 1) {
+            return false;
+        }
+        int contador = 0;
+        for (int i = (int) Math.sqrt(numero); i > 1; i--) {
+            if (numero % i == 0) {
+                contador++;
+            }
+        }
+        return contador < 1;
     }
 
     @Override
-    public void request() {
-        // filtro para utilizar el objeto real
-        if (attribute1 > 50){
-            System.out.println("utilizando objeto real");
-            this.realSubject.request();
-        } else{
-            System.out.println("valor no permitido para utilizar el objeto real :"+attribute1);
+    public void ingresar() {
+        cluster.ingresar();
+        if (web.getUser()==cluster.getUserGuardado() && web.getPwd()==cluster.getPwdGuardado()){
+            if (esPrimo(web.getIdUsuario())) {
+                System.out.println("Usted será guardado para el servidor 1 porque su id usuario "+ web.getIdUsuario() +" es primo");
+            }else {
+                System.out.println("Usted será redirigido al servidor 2 porque su id usuario "+ web.getIdUsuario() +" no es primo");
+            }
+        }else{
+            System.out.println("Ingrese los datos correctos de login");
         }
     }
 }

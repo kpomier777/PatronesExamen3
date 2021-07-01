@@ -1,58 +1,74 @@
-proxy/RealSubject.java
- proxy.RealSubject
-adapter/TrackElectricoAdaptado.java
- adapter.TrackElectricoAdaptado
-proxy/Proxy.java
- proxy.Proxy
-visitor/Client.java
- visitor.Client
-decorator/CelularBasico.java
- decorator.CelularBasico
-adapter/GasolinaEspecial.java
- adapter.GasolinaEspecial
-visitor/TuristaAleman.java
- visitor.TuristaAleman
-visitor/ITurista.java
- visitor.ITurista
-adapter/Gasolina.java
- adapter.Gasolina
-proxy/Client.java
- proxy.Client
-visitor/SantaCruz.java
- visitor.SantaCruz
-adapter/Diesel.java
- adapter.Diesel
+decorator/Samsung.java
+ decorator.Samsung
 visitor/Cochabamba.java
  visitor.Cochabamba
-adapter/ICuadratracks.java
- adapter.ICuadratracks
-visitor/LaPaz.java
- visitor.LaPaz
-proxy/ISubject.java
- proxy.ISubject
-visitor/IDepartamento.java
- visitor.IDepartamento
-adapter/Client.java
- adapter.Client
+visitor/TuristaAleman.java
+ visitor.TuristaAleman
+visitor/Client.java
+ visitor.Client
 adapter/ICuadratrackElectrico.java
  adapter.ICuadratrackElectrico
-adapter/TrackElectrico.java
- adapter.TrackElectrico
-decorator/IMarca.java
- decorator.IMarca
 bridge/ISistemas.java
  bridge.ISistemas
-bridge/IRed.java
- bridge.IRed
 bridge/SistemaEscuela.java
  bridge.SistemaEscuela
-bridge/SistemaColegio.java
- bridge.SistemaColegio
-bridge/SistemaUniversidad.java
- bridge.SistemaUniversidad
-bridge/Whatapp.java
- bridge.Whatapp
+adapter/ICuadratracks.java
+ adapter.ICuadratracks
+adapter/TrackElectricoAdaptado.java
+ adapter.TrackElectricoAdaptado
+decorator/CelularConMemoriaExterna.java
+ decorator.CelularConMemoriaExterna
+visitor/SantaCruz.java
+ visitor.SantaCruz
+adapter/Client.java
+ adapter.Client
+visitor/IDepartamento.java
+ visitor.IDepartamento
 bridge/Client.java
  bridge.Client
+bridge/Whatapp.java
+ bridge.Whatapp
+decorator/IMarca.java
+ decorator.IMarca
+bridge/IRed.java
+ bridge.IRed
+adapter/GasolinaEspecial.java
+ adapter.GasolinaEspecial
+decorator/Client.java
+ decorator.Client
+adapter/TrackElectrico.java
+ adapter.TrackElectrico
+visitor/ITurista.java
+ visitor.ITurista
+bridge/SistemaUniversidad.java
+ bridge.SistemaUniversidad
+bridge/SistemaColegio.java
+ bridge.SistemaColegio
+decorator/Xiaomi.java
+ decorator.Xiaomi
+decorator/Apple.java
+ decorator.Apple
+adapter/Gasolina.java
+ adapter.Gasolina
+adapter/Diesel.java
+ adapter.Diesel
 bridge/Twitter.java
  bridge.Twitter
+visitor/LaPaz.java
+ visitor.LaPaz
+decorator/CelularConTemplado.java
+ decorator.CelularConTemplado
+decorator/Decorator.java
+ decorator.Decorator
+decorator/CelularConCarcasa.java
+ decorator.CelularConCarcasa
+proxy/AppWeb.java
+ proxy.AppWeb
+proxy/ICluster.java
+ proxy.ICluster
+proxy/Cluster.java
+ proxy.Cluster
+proxy/Client.java
+ proxy.Client
+proxy/Proxy.java
+ proxy.Proxy

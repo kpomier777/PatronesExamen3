@@ -2,12 +2,26 @@ package decorator;
 
 public class Client {
     public static void main(String[] args) {
-        CelularApple personajebasico= new CelularApple("Kevin",1);
-        Juego juego = personajebasico;
-        juego = new CelularConCarcasa(juego);
-        juego = new decorator.Practica.practica.PersonajeConEscudo(juego);
-        juego = new PesonajeConCuracion(juego);
+        IMarca samsum= new Samsung(8,16,8,500);
+        samsum.aumentar();
+        samsum = new CelularConCarcasa(samsum);
+        samsum = new CelularConMemoriaExterna(samsum);
+        samsum = new CelularConTemplado(samsum);
+        samsum.aumentar();
 
-        juego.operation(personajebasico);
+        IMarca apple= new Apple(8,16,8,500);
+        apple.aumentar();
+        apple = new CelularConCarcasa(apple);
+        apple = new CelularConMemoriaExterna(apple);
+        apple = new CelularConTemplado(apple);
+        apple.aumentar();
+
+        IMarca xiaomi= new Xiaomi(8,16,8,500);
+        xiaomi.aumentar();
+        xiaomi = new CelularConCarcasa(xiaomi);
+        xiaomi = new CelularConMemoriaExterna(xiaomi);
+        xiaomi = new CelularConTemplado(xiaomi);
+        xiaomi.aumentar();
+
     }
 }
