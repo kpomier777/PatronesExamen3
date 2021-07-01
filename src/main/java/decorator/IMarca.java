@@ -1,5 +1,5 @@
 package decorator;
 
 public interface IMarca {
-    public void aumentar(CelularBasico celularBasico);
+    public void aumentar(CelularApple celularBasico);
 }

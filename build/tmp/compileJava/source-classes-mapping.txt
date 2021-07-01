@@ -1,31 +1,31 @@
 proxy/RealSubject.java
  proxy.RealSubject
-bridge/ConcreteImplementorB.java
- bridge.ConcreteImplementorB
+adapter/TrackElectricoAdaptado.java
+ adapter.TrackElectricoAdaptado
 proxy/Proxy.java
  proxy.Proxy
 visitor/Client.java
  visitor.Client
-bridge/Implementor.java
- bridge.Implementor
-bridge/ConcreteAbstraction.java
- bridge.ConcreteAbstraction
+decorator/CelularBasico.java
+ decorator.CelularBasico
+adapter/GasolinaEspecial.java
+ adapter.GasolinaEspecial
 visitor/TuristaAleman.java
  visitor.TuristaAleman
 visitor/ITurista.java
  visitor.ITurista
-bridge/IAbstraction.java
- bridge.IAbstraction
+adapter/Gasolina.java
+ adapter.Gasolina
 proxy/Client.java
  proxy.Client
 visitor/SantaCruz.java
  visitor.SantaCruz
-bridge/ConcreteImplementorA.java
- bridge.ConcreteImplementorA
+adapter/Diesel.java
+ adapter.Diesel
 visitor/Cochabamba.java
  visitor.Cochabamba
-bridge/Client.java
- bridge.Client
+adapter/ICuadratracks.java
+ adapter.ICuadratracks
 visitor/LaPaz.java
  visitor.LaPaz
 proxy/ISubject.java
@@ -40,15 +40,19 @@ adapter/TrackElectrico.java
  adapter.TrackElectrico
 decorator/IMarca.java
  decorator.IMarca
-adapter/ICuadratracks.java
- adapter.ICuadratracks
-decorator/CelularBasico.java
- decorator.CelularBasico
-adapter/Gasolina.java
- adapter.Gasolina
-adapter/TrackElectricoAdaptado.java
- adapter.TrackElectricoAdaptado
-adapter/Diesel.java
- adapter.Diesel
-adapter/GasolinaEspecial.java
- adapter.GasolinaEspecial
+bridge/ISistemas.java
+ bridge.ISistemas
+bridge/IRed.java
+ bridge.IRed
+bridge/SistemaEscuela.java
+ bridge.SistemaEscuela
+bridge/SistemaColegio.java
+ bridge.SistemaColegio
+bridge/SistemaUniversidad.java
+ bridge.SistemaUniversidad
+bridge/Whatapp.java
+ bridge.Whatapp
+bridge/Client.java
+ bridge.Client
+bridge/Twitter.java
+ bridge.Twitter

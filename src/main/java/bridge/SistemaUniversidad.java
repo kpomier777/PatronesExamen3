@@ -1,6 +1,6 @@
 package bridge;
 
-public class SistemaColegio implements ISistemas {
+public class SistemaUniversidad implements ISistemas {
 
     private IRed redsocial;
     String nombre;
@@ -8,7 +8,7 @@ public class SistemaColegio implements ISistemas {
     String[] estudiantes;
     String requisitos;
 
-    public SistemaColegio(IRed redsocial) {
+    public SistemaUniversidad(IRed redsocial) {
         this.redsocial = redsocial;
     }
 
