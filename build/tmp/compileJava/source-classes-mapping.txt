@@ -4,45 +4,51 @@ bridge/ConcreteImplementorB.java
  bridge.ConcreteImplementorB
 proxy/Proxy.java
  proxy.Proxy
-adapter/ConcreteAdapter1.java
- adapter.ConcreteAdapter1
+visitor/Client.java
+ visitor.Client
 bridge/Implementor.java
  bridge.Implementor
 bridge/ConcreteAbstraction.java
  bridge.ConcreteAbstraction
-adapter/ConcreteAdapter2.java
- adapter.ConcreteAdapter2
-adapter/ConcreteAdapter3.java
- adapter.ConcreteAdapter3
+visitor/TuristaAleman.java
+ visitor.TuristaAleman
+visitor/ITurista.java
+ visitor.ITurista
 bridge/IAbstraction.java
  bridge.IAbstraction
 proxy/Client.java
  proxy.Client
-adapter/ConcreteAdapterObject.java
- adapter.ConcreteAdapterObject
-bridge/ConcreteImplementorA.java
- bridge.ConcreteImplementorA
-adapter/IAdapter.java
- adapter.IAdapter
-bridge/Client.java
- bridge.Client
-adapter/ConcreteObject.java
- adapter.ConcreteObject
-proxy/ISubject.java
- proxy.ISubject
-adapter/Client.java
- adapter.Client
-visitor/IDepartamento.java
- visitor.IDepartamento
-visitor/Cochabamba.java
- visitor.Cochabamba
-visitor/LaPaz.java
- visitor.LaPaz
 visitor/SantaCruz.java
  visitor.SantaCruz
-visitor/ITurista.java
- visitor.ITurista
-visitor/TuristaAleman.java
- visitor.TuristaAleman
-visitor/Client.java
- visitor.Client
+bridge/ConcreteImplementorA.java
+ bridge.ConcreteImplementorA
+visitor/Cochabamba.java
+ visitor.Cochabamba
+bridge/Client.java
+ bridge.Client
+visitor/LaPaz.java
+ visitor.LaPaz
+proxy/ISubject.java
+ proxy.ISubject
+visitor/IDepartamento.java
+ visitor.IDepartamento
+adapter/Client.java
+ adapter.Client
+adapter/ICuadratrackElectrico.java
+ adapter.ICuadratrackElectrico
+adapter/TrackElectrico.java
+ adapter.TrackElectrico
+decorator/IMarca.java
+ decorator.IMarca
+adapter/ICuadratracks.java
+ adapter.ICuadratracks
+decorator/CelularBasico.java
+ decorator.CelularBasico
+adapter/Gasolina.java
+ adapter.Gasolina
+adapter/TrackElectricoAdaptado.java
+ adapter.TrackElectricoAdaptado
+adapter/Diesel.java
+ adapter.Diesel
+adapter/GasolinaEspecial.java
+ adapter.GasolinaEspecial

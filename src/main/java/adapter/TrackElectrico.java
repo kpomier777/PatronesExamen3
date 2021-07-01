@@ -33,6 +33,7 @@ public class TrackElectrico implements ICuadratrackElectrico {
     @Override
     public void cargar() {
         setCargado(int_random);
+        System.out.println("Numero de cargado "+getCargado());
     }
 
     @Override
@@ -40,6 +41,7 @@ public class TrackElectrico implements ICuadratrackElectrico {
         if(int_random2==0){
             int_random2++;
         }
+        System.out.println("Numero de estado de electricidad "+getEstadoELectricidad());
         return int_random2;
     }
 }

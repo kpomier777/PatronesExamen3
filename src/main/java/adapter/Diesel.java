@@ -42,6 +42,7 @@ public class Diesel implements ICuadratracks {
     @Override
     public void llenarGasolina() {
         setCapacidad(int_random);
+        System.out.println("Numero de capadidad "+getCapacidad());
     }
 
     @Override
@@ -49,6 +50,7 @@ public class Diesel implements ICuadratracks {
         if(int_random2==0){
             int_random2++;
         }
+        System.out.println("Numero de estado de combustible "+int_random2);
         return int_random2;
     }
 }

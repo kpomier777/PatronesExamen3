@@ -13,12 +13,12 @@ public class TrackElectricoAdaptado implements ICuadratracks {
 
     @Override
     public void llenarGasolina() {
-        this.cargar();
+        trackElectrico.cargar();
     }
 
     @Override
     public int estadoDelCombustible() {
-        this.estadoDelCombustible()
-        return 0;
+
+        return trackElectrico.estadoDeElectricidad();
     }
 }
