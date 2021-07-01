@@ -3,7 +3,7 @@ package visitor;
 
 
 
-import java.text.DecimalFormat;
+import java.util.Random;
 
 public class TuristaAleman implements ITurista {
     private int ci;
@@ -38,26 +38,36 @@ public class TuristaAleman implements ITurista {
         this.capital = capital;
     }
 
-¿
+
+    Random rand = new Random();
+    int upperbound = 101;
+    int int_random = rand.nextInt(upperbound);
+
 
     @Override
     public void visitar(LaPaz laPaz) {
-        System.out.println("Bolivia> recibir librecambista");
-        System.out.println("Convirtiendo "+capital+" Dolares a "+bolivia.getMoneda());
-        System.out.println("Total: "+df.format(capital*6.86) +" "+bolivia.getMoneda());
+        setCapital(getCapital()-int_random);
+
+            System.out.println("El turista gasta "+ getCapital()+" Bs. en La Paz");
+
+
     }
 
     @Override
     public void visitar(Cochabamba cochabamba) {
-        System.out.println("Bolivia> recibir librecambista");
-        System.out.println("Convirtiendo "+capital+" Dolares a "+bolivia.getMoneda());
-        System.out.println("Total: "+df.format(capital*6.86) +" "+bolivia.getMoneda());
+        setCapital(getCapital()-(10*cochabamba.getNumeroHabitantes()/100));
+
+            System.out.println("El turista gasta "+ getCapital()+" Bs. en Conchabamba");
+
+
+
     }
 
     @Override
     public void visitar(SantaCruz santaCruz) {
-        System.out.println("Bolivia> recibir librecambista");
-        System.out.println("Convirtiendo "+capital+" Dolares a "+bolivia.getMoneda());
-        System.out.println("Total: "+df.format(capital*6.86) +" "+bolivia.getMoneda());
+        setCapital(getCapital()-(50*santaCruz.getProvincias()/100));
+
+            System.out.println("El turista gasta "+ getCapital()+" Bs. en Santa Cruz");
+
     }
 }

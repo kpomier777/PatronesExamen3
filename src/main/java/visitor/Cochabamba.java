@@ -6,8 +6,8 @@ public class Cochabamba implements IDepartamento {
 
     String nombre = "Cochabamba";
     int número = 20;
-    int provincias= 20;
-    int numeroHabitantes = 1020;
+    int provincias= 12;
+    int numeroHabitantes = 1010;
     String clima= "Templado";
     int dineroPorTurismo = 400;
 

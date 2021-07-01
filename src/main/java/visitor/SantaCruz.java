@@ -6,8 +6,8 @@ public class SantaCruz implements IDepartamento {
 
     String nombre = "Santa Cruz";
     int número = 20;
-    int provincias= 20;
-    int numeroHabitantes = 1020;
+    int provincias= 50;
+    int numeroHabitantes = 1030;
     String clima= "Templado";
     int dineroPorTurismo = 400;
 

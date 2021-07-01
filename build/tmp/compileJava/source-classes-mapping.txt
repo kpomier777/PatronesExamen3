@@ -1,60 +1,48 @@
 proxy/RealSubject.java
  proxy.RealSubject
-adapter/ConcreteAdapter3.java
- adapter.ConcreteAdapter3
-bridge/ConcreteImplementorA.java
- bridge.ConcreteImplementorA
-visitor/Cliente.java
- visitor.Cliente
-visitor/ElementConcrete1.java
- visitor.ElementConcrete1
-bridge/Client.java
- bridge.Client
-visitor/ConcreteVisitante.java
- visitor.ConcreteVisitante
-decorator/DecoratorConcrete2.java
- decorator.DecoratorConcrete2
-bridge/ConcreteAbstraction.java
- bridge.ConcreteAbstraction
-proxy/ISubject.java
- proxy.ISubject
 bridge/ConcreteImplementorB.java
  bridge.ConcreteImplementorB
+proxy/Proxy.java
+ proxy.Proxy
 adapter/ConcreteAdapter1.java
  adapter.ConcreteAdapter1
 bridge/Implementor.java
  bridge.Implementor
+bridge/ConcreteAbstraction.java
+ bridge.ConcreteAbstraction
 adapter/ConcreteAdapter2.java
  adapter.ConcreteAdapter2
-visitor/ElementConcrete3.java
- visitor.ElementConcrete3
+adapter/ConcreteAdapter3.java
+ adapter.ConcreteAdapter3
 bridge/IAbstraction.java
  bridge.IAbstraction
-decorator/Decorator.java
- decorator.Decorator
 proxy/Client.java
  proxy.Client
 adapter/ConcreteAdapterObject.java
  adapter.ConcreteAdapterObject
-visitor/IVisit.java
- visitor.IVisit
-adapter/ConcreteObject.java
- adapter.ConcreteObject
-adapter/Client.java
- adapter.Client
-visitor/IElement.java
- visitor.IElement
-decorator/Component.java
- decorator.Component
-decorator/ComponentConcrete1.java
- decorator.ComponentConcrete1
-decorator/DecoratorConcrete1.java
- decorator.DecoratorConcrete1
+bridge/ConcreteImplementorA.java
+ bridge.ConcreteImplementorA
 adapter/IAdapter.java
  adapter.IAdapter
-visitor/ElementConcrete2.java
- visitor.ElementConcrete2
-decorator/Client.java
- decorator.Client
-proxy/Proxy.java
- proxy.Proxy
+bridge/Client.java
+ bridge.Client
+adapter/ConcreteObject.java
+ adapter.ConcreteObject
+proxy/ISubject.java
+ proxy.ISubject
+adapter/Client.java
+ adapter.Client
+visitor/IDepartamento.java
+ visitor.IDepartamento
+visitor/Cochabamba.java
+ visitor.Cochabamba
+visitor/LaPaz.java
+ visitor.LaPaz
+visitor/SantaCruz.java
+ visitor.SantaCruz
+visitor/ITurista.java
+ visitor.ITurista
+visitor/TuristaAleman.java
+ visitor.TuristaAleman
+visitor/Client.java
+ visitor.Client
