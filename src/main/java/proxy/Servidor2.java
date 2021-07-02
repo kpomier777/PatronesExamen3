@@ -1,6 +1,6 @@
 package proxy;
 
-public class Cluster implements ICluster {
+public class Servidor2 implements ICluster {
 
     AppWeb web;
     private String userGuardado;
@@ -22,15 +22,15 @@ public class Cluster implements ICluster {
         this.pwdGuardado = pwdGuardado;
     }
 
-    public Cluster(AppWeb web, String userGuardado, String pwdGuardado) {
+    public Servidor2(AppWeb web) {
         this.web = web;
-        this.userGuardado = userGuardado;
-        this.pwdGuardado= pwdGuardado;
+
     }
 
 
     @Override
     public void ingresar() {
+        System.out.println("Atendido por servidor 2");
         System.out.println("Validando... login de usuario "+ this.web.getUser()+" con password "+ this.web.getPwd());
     }
 }

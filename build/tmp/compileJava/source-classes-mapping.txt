@@ -1,5 +1,3 @@
-decorator/Samsung.java
- decorator.Samsung
 visitor/Cochabamba.java
  visitor.Cochabamba
 visitor/TuristaAleman.java
@@ -16,12 +14,12 @@ adapter/ICuadratracks.java
  adapter.ICuadratracks
 adapter/TrackElectricoAdaptado.java
  adapter.TrackElectricoAdaptado
-decorator/CelularConMemoriaExterna.java
- decorator.CelularConMemoriaExterna
+decorator/Samsung.java
+ decorator.Samsung
 visitor/SantaCruz.java
  visitor.SantaCruz
-adapter/Client.java
- adapter.Client
+decorator/CelularConMemoriaExterna.java
+ decorator.CelularConMemoriaExterna
 visitor/IDepartamento.java
  visitor.IDepartamento
 bridge/Client.java
@@ -30,45 +28,49 @@ bridge/Whatapp.java
  bridge.Whatapp
 decorator/IMarca.java
  decorator.IMarca
-bridge/IRed.java
- bridge.IRed
+decorator/CelularConCarcasa.java
+ decorator.CelularConCarcasa
 adapter/GasolinaEspecial.java
  adapter.GasolinaEspecial
-decorator/Client.java
- decorator.Client
-adapter/TrackElectrico.java
- adapter.TrackElectrico
+proxy/AppWeb.java
+ proxy.AppWeb
+decorator/CelularConTemplado.java
+ decorator.CelularConTemplado
 visitor/ITurista.java
  visitor.ITurista
+decorator/Apple.java
+ decorator.Apple
+proxy/ICluster.java
+ proxy.ICluster
 bridge/SistemaUniversidad.java
  bridge.SistemaUniversidad
 bridge/SistemaColegio.java
  bridge.SistemaColegio
-decorator/Xiaomi.java
- decorator.Xiaomi
-decorator/Apple.java
- decorator.Apple
+decorator/Decorator.java
+ decorator.Decorator
+proxy/Client.java
+ proxy.Client
 adapter/Gasolina.java
  adapter.Gasolina
 adapter/Diesel.java
  adapter.Diesel
 bridge/Twitter.java
  bridge.Twitter
+proxy/Servidor2.java
+ proxy.Servidor2
 visitor/LaPaz.java
  visitor.LaPaz
-decorator/CelularConTemplado.java
- decorator.CelularConTemplado
-decorator/Decorator.java
- decorator.Decorator
-decorator/CelularConCarcasa.java
- decorator.CelularConCarcasa
-proxy/AppWeb.java
- proxy.AppWeb
-proxy/ICluster.java
- proxy.ICluster
-proxy/Cluster.java
- proxy.Cluster
-proxy/Client.java
- proxy.Client
+adapter/Client.java
+ adapter.Client
+decorator/Xiaomi.java
+ decorator.Xiaomi
+adapter/TrackElectrico.java
+ adapter.TrackElectrico
+proxy/Servidor1.java
+ proxy.Servidor1
+bridge/IRed.java
+ bridge.IRed
+decorator/Client.java
+ decorator.Client
 proxy/Proxy.java
  proxy.Proxy
